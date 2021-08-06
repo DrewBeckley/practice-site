@@ -1,7 +1,50 @@
+:root{
+	--blue: #1e90ff;
+  --white: #ffffff;
+  --headColor: green;
+}
+/*
+========================================================================
+content is for the background and maybe later  could inherint from
+========================================================================
+*/
+
+#content{
+background-color: var(--headColor);
+}
+
+a{
+
+	display: inline-block;
+}
+
+#headsection{
+background: rgb(202, 202, 255);
+
+
+}
+
+hr{
+	margin-top: 0px;
+	margin: 0px 0px 0px 0px
+}
 
 
 
-h1{
+li{
+	display:inline-block;
+	margin: 0px 19px 0px 0px;
+	outline-width: 9px;
+	color:var(--)
+	
+	
+}
+
+homeSpacer{
+	width: 100%
+
+}
+h1,p{
 	color: rgb(18, 92, 121);
 	font-weight: 5px;/**/
 }
