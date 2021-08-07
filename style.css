@@ -10,20 +10,64 @@
  
 }
 
-h1,p,h2{
+header h1{
 	color: var(--contentcolor,yellow);
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	padding-top: 0px;
-	 margin-block-start: 0px;
-	margin: 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: black;
+	padding-top: 200px;
 }
+
+header h2,p{
+	color: var(--contentcolor,yellow);
+	margin: 0px 0px 0px 0px;
+	
+}
+
 /*
 ========================================================================
 content is for the background and maybe later  could inherit from
 ========================================================================
 */
+
+
+
+
+
+#headsection{
+background: rgb(202, 202, 255);
+background-color: tomato;
+
+
+}
+
+#body{
+	margin-block-start: 0px;
+	margin: 0px ;
+}
+
+header header{
+	background-color: greenyellow;
+	background-size: 65px;
+
+}
+
+
+hr{
+	margin: 0px 0px;
+ }
+
+li{
+	display:inline-block;
+	outline-width: 9px;
+	
+	
+}
+ul{
+	margin: 0px;
+}
+#contentsection{
+background-color: var(--headColor);
+}
 
 
 
@@ -51,39 +95,3 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-
-#headsection{
-background: rgb(202, 202, 255);
-background-color: tomato;
-
-
-}
-
-#body{
-	margin-block-start: 0px;
-	margin: 0px ;
-}
-
-header{
-	background-color: greenyellow;
-
-}
-
-
-hr{
-	margin: 0px 0px;
- }
-
-li{
-	display:inline-block;
-	outline-width: 9px;
-	
-	
-}
-ul{
-	margin: 0
-}
-#contentsection{
-background-color: var(--headColor);
-}
-
