@@ -2,49 +2,83 @@
 	--blue: #1e90ff;
   --white: #ffffff;
   --headColor: green;
+  --contentcolor: orange;
+  --linkcolor: rgb(202, 48, 48);
+ background-color: tan;
+ margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px
+}
+
+h1,p,h2{
+	color: var(--contentcolor,yellow);
+	font-weight: 5px;/**/
 }
 /*
 ========================================================================
-content is for the background and maybe later  could inherint from
+content is for the background and maybe later  could inherit from
 ========================================================================
 */
 
-#content{
-background-color: var(--headColor);
+
+
+/*link customization for */
+a:link {
+  color: var(--linkcolor);
+  background-color: transparent;
+  text-decoration: none;
 }
 
-a{
+a:visited {
+   color: var(--linkcolor);
+  background-color: transparent;
+  text-decoration: none;
+}
 
-	display: inline-block;
+a:hover {
+ 
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 #headsection{
 background: rgb(202, 202, 255);
+background-color: tomato;
 
 
 }
 
-hr{
-	margin-top: 0px;
-	margin: 0px 0px 0px 0px
-}
+/* hr{
+	
+	
+} */
 
+header{
+	background-color: greenyellow;
+
+}
 
 
 li{
+	padding-top: 0px;
+	padding-bottom: 10px;
 	display:inline-block;
-	margin: 0px 19px 0px 0px;
+	margin: 0px 20px 0px 0px;
 	outline-width: 9px;
-	color:var(--)
 	
 	
 }
 
-homeSpacer{
-	width: 100%
+#contentsection{
+background-color: var(--headColor);
+padding-top: 0px;
+margin-top: 0px;
+}
 
-}
-h1,p{
-	color: rgb(18, 92, 121);
-	font-weight: 5px;/**/
-}
